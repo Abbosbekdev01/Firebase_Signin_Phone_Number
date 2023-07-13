@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.OpenFragment">
+
+
+    <TextView
+        android:id="@+id/tv_open_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_24ssp"
+        android:layout_marginTop="@dimen/_24ssp"
+        android:text="Xush kelibsiz!!!"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_24ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_namber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_24ssp"
+        android:text="(+99893) 123-45-67"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:text="Yuqoridagi nomer orqali ro'yhatdan o'tildi"
+        android:layout_margin="@dimen/_10sdp"
+        />
+
+</LinearLayout>

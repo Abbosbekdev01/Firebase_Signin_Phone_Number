@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/numberFragment">
+
+    <fragment
+        android:id="@+id/numberFragment"
+        android:name="uz.abbosbek.myfirebasephonenumber.fragment.NumberFragment"
+        android:label="fragment_number"
+        tools:layout="@layout/fragment_number" >
+        <action
+            android:id="@+id/action_numberFragment_to_SMSFragment"
+            app:destination="@id/SMSFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SMSFragment"
+        android:name="uz.abbosbek.myfirebasephonenumber.fragment.SMSFragment"
+        android:label="fragment_s_m_s"
+        tools:layout="@layout/fragment_s_m_s" >
+        <action
+            android:id="@+id/action_SMSFragment_to_openFragment"
+            app:destination="@id/openFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/openFragment"
+        android:name="uz.abbosbek.myfirebasephonenumber.fragment.OpenFragment"
+        android:label="fragment_open"
+        tools:layout="@layout/fragment_open" />
+</navigation>
